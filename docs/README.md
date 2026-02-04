@@ -13,7 +13,7 @@ Powered by
 ## **General Description**
 
 JSI Assistant tool includes LLM Advisor for Compliance along with Transparency and explainability.
-This codebase implements a Retrieval-Augmented Generation (RAG) assistant focused on EU AI-related regulations (AI Act, Data Act, Data Governance Act, GDPR). It scrapes and segments the laws, builds embeddings, retrieves relevant articles, and generates answers while displaying both sources and the LLM response. ([GitHub][1])
+This codebase implements a Retrieval-Augmented Generation (RAG) assistant focused on EU AI-related regulations. It scrapes and segments the laws, builds embeddings, retrieves relevant articles, and generates answers while displaying both sources and the LLM response. ([GitHub][1])
 
 ## **Architecture**
 
