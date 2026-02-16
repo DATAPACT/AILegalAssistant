@@ -44,6 +44,14 @@ TBD
 
 (Repo is MIT-licensed.) ([GitHub][1])
 
+
+## **Expected KPIs**
+
+| What (Types)            | How (Process)                                                                       | Values                                                                                                                                                                        |
+| ---------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Answer Relevance | Benchmark on compliance questions derived from regulatory documents | Recall@10> 0.85 |
+
+
 ## **Top Features**
 
 * Covers four cornerstone EU regulations: **AI Act**, **Data Act**, **Data Governance Act**, **GDPR**. ([GitHub][1])
