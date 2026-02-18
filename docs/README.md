@@ -57,13 +57,12 @@ AI Legal Assistant tool is a Retrieval-Augmented Generation assistant for compli
 | ---------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Answer Relevance | Benchmark on compliance questions derived from regulatory documents | Recall@10> 0.85 |
 
+## **How To Install**
 
 | Project Links                                                                                    |
 | ------------------------------------------------------------------------------------------------ |
 | **Software GitHub Repository** → JSI ASSISTANT [lrei/legal-AI](https://github.com/lrei/legal-AI) |
 
-
-## **How To Install**
 
 ### Requirements
 
