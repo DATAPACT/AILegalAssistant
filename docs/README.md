@@ -8,14 +8,26 @@ Powered by
 
 <img src="../images/jsi-logo.png" width="200" alt="JSI Logo" />
 
-
-| Project Links                                                                                    |
-| ------------------------------------------------------------------------------------------------ |
-| **Software GitHub Repository** → JSI ASSISTANT [lrei/legal-AI](https://github.com/lrei/legal-AI) |
-
 ## **General Description**
 
 AI Legal Assistant tool is a Retrieval-Augmented Generation assistant for compliance. This codebase implements a RAG assistant focused on EU AI-related regulations. It segments the laws, builds embeddings, retrieves relevant articles, and generates answers while displaying both sources and the LLM response.
+
+## **Commercial Information**
+
+| Organisation (s)             | License Nature           | License |
+| ---------------------------- | ------------------------ | ------- |
+| Jožef Stefan Institute (JSI) | Open Source (permissive) | MIT     |
+
+(Repo is MIT-licensed.) 
+
+## **Top Features**
+
+* Covers four cornerstone EU regulations: **AI Act**, **Data Act**, **Data Governance Act**, **GDPR**. 
+* Retrieval with **LanceDB** + **SQLite** metadata separation for efficient search & rich display. 
+* **Re-ranking** using `all-MiniLM-L6-v2` for higher precision answers. 
+* **Two app modes**: public (simple) and testing (configurable model, tokens, temperature, embedding/re-ranker). 
+* **Transparency UX**: shows query, retrieved articles, constructed prompt, and model response. 
+
 
 ## **Architecture**
 
@@ -39,15 +51,6 @@ AI Legal Assistant tool is a Retrieval-Augmented Generation assistant for compli
 <img src="../images/legal.png" width="1200" alt="AI Legal Assistant" />
 
 
-## **Commercial Information**
-
-| Organisation (s)             | License Nature           | License |
-| ---------------------------- | ------------------------ | ------- |
-| Jožef Stefan Institute (JSI) | Open Source (permissive) | MIT     |
-
-(Repo is MIT-licensed.) 
-
-
 ## **Expected KPIs**
 
 | What (Types)            | How (Process)                                                                       | Values                                                                                                                                                                        |
@@ -55,13 +58,10 @@ AI Legal Assistant tool is a Retrieval-Augmented Generation assistant for compli
 | Answer Relevance | Benchmark on compliance questions derived from regulatory documents | Recall@10> 0.85 |
 
 
-## **Top Features**
+| Project Links                                                                                    |
+| ------------------------------------------------------------------------------------------------ |
+| **Software GitHub Repository** → JSI ASSISTANT [lrei/legal-AI](https://github.com/lrei/legal-AI) |
 
-* Covers four cornerstone EU regulations: **AI Act**, **Data Act**, **Data Governance Act**, **GDPR**. 
-* Retrieval with **LanceDB** + **SQLite** metadata separation for efficient search & rich display. 
-* **Re-ranking** using `all-MiniLM-L6-v2` for higher precision answers. 
-* **Two app modes**: public (simple) and testing (configurable model, tokens, temperature, embedding/re-ranker). 
-* **Transparency UX**: shows query, retrieved articles, constructed prompt, and model response. 
 
 ## **How To Install**
 
