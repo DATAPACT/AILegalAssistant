@@ -108,8 +108,6 @@ docker run -d -p 8001:8001 --name legal-ai-container legal-ai-app
 # then open http://localhost:8001
 ```
 
-([GitHub][1])
-
 ## **How To Use**
 
 1. Open the UI at `http://localhost:8001/`.
