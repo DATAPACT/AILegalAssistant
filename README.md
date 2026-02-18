@@ -1,4 +1,4 @@
-# JSI AI LEGAL ASSISTANT
+#  AI LEGAL ASSISTANT
 
 Powered by
 
@@ -15,8 +15,7 @@ Powered by
 
 ## **General Description**
 
-JSI Assistant tool includes LLM Advisor for Compliance along with Transparency and explainability.
-This codebase implements a Retrieval-Augmented Generation (RAG) assistant focused on EU AI-related regulations. It segments the laws, builds embeddings, retrieves relevant articles, and generates answers while displaying both sources and the LLM response. ([GitHub][1])
+AI Legal Assistant tool is a Retrieval-Augmented Generation assistant for compliance. This codebase implements a RAG assistant focused on EU AI-related regulations. It segments the laws, builds embeddings, retrieves relevant articles, and generates answers while displaying both sources and the LLM response.
 
 ## **Architecture**
 
@@ -58,11 +57,11 @@ This codebase implements a Retrieval-Augmented Generation (RAG) assistant focuse
 
 ## **Top Features**
 
-* Covers four cornerstone EU regulations: **AI Act**, **Data Act**, **Data Governance Act**, **GDPR**. ([GitHub][1])
-* Retrieval with **LanceDB** + **SQLite** metadata separation for efficient search & rich display. ([GitHub][1])
-* **Re-ranking** using `all-MiniLM-L6-v2` for higher precision answers. ([GitHub][1])
-* **Two app modes**: public (simple) and testing (configurable model, tokens, temperature, embedding/re-ranker). ([GitHub][1])
-* **Transparency UX**: shows query, retrieved articles, constructed prompt, and model response. ([GitHub][1])
+* Covers four cornerstone EU regulations: **AI Act**, **Data Act**, **Data Governance Act**, **GDPR**.
+* Retrieval with **LanceDB** + **SQLite** metadata separation for efficient search & rich display.
+* **Re-ranking** using `all-MiniLM-L6-v2` for higher precision answers.
+* **Two app modes**: public (simple) and testing (configurable model, tokens, temperature, embedding/re-ranker). 
+* **Transparency UX**: shows query, retrieved articles, constructed prompt, and model response.
 
 ## **How To Install**
 
@@ -70,17 +69,17 @@ This codebase implements a Retrieval-Augmented Generation (RAG) assistant focuse
 
 * **Python** 3.9+
 * **OpenAI API key** (required to generate model responses)
-* (Optional) **Docker** Desktop for containerized run ([GitHub][1])
+* (Optional) **Docker** Desktop for containerized run
 
 ### Software
 
-* Clone: `git clone https://github.com/lrei/legal-AI` (the upstream README shows a clone of the original fork; use this repo URL for JSI). ([GitHub][1])
-* Install deps: `pip install -r package_requirements.txt` ([GitHub][1])
+* Clone: `git clone https://github.com/lrei/legal-AI` (the upstream README shows a clone of the original fork; use this repo URL for JSI). 
+* Install deps: `pip install -r package_requirements.txt`
 
 ### Summary of installation steps
 
 * **Preferred**: create venv → install requirements → run batch or start Uvicorn.
-* **Docker**: build image → run container → open `http://localhost:8001`. ([GitHub][1])
+* **Docker**: build image → run container → open `http://localhost:8001`.
 
 ### Detailed steps
 
@@ -98,7 +97,7 @@ python app_public.py
 # then open http://localhost:8001
 ```
 
-(As in repo, you can also use the provided `run_app.bat` after pointing it to your absolute path.) ([GitHub][1])
+(As in repo, you can also use the provided `run_app.bat` after pointing it to your absolute path.)
 
 **Option B — Docker**
 
@@ -116,7 +115,7 @@ docker run -d -p 8001:8001 --name legal-ai-container legal-ai-app
 1. Open the UI at `http://localhost:8001/`.
 2. Enter your legal query and your **OpenAI API key**.
 3. Submit to see the **retrieved legal articles**, the **constructed prompt**, and the **LLM response**.
-4. (Testing app) Configure model, temperature, max tokens, and embedding/re-ranker models as needed. ([GitHub][1])
+4. (Testing app) Configure model, temperature, max tokens, and embedding/re-ranker models as needed.
 
 ## **Other Information**
 
